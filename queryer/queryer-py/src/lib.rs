@@ -1,4 +1,4 @@
-
+#![allow(clippy::needless_option_as_deref)]
 use pyo3::{exceptions, prelude::*};
 
 #[pyfunction]
@@ -24,16 +24,4 @@ fn queryer_py(_py: Python, m: &PyModule) -> PyResult<()> {
     m.add_function(wrap_pyfunction!(query, m)?)?;
     m.add_function(wrap_pyfunction!(example_sql, m)?)?;
     Ok(())
-}
-
-
-
-
-#[cfg(test)]
-mod tests {
-    #[test]
-    fn it_works() {
-        let result = 2 + 2;
-        assert_eq!(result, 4);
-    }
 }
