@@ -2,5 +2,7 @@
 
 members = [
   "queryer",
-  "queryer-py"
+  "queryer-js",
+  "queryer-py",
+  "data-viewer/src-tauri"
 ]
