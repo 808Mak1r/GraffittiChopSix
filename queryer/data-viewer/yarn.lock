@@ -59,8 +59,8 @@
 
 "@tauri-apps/cli@^1.0.0-beta.10":
   version "1.0.0-beta.10"
-  resolved "https://registry.yarnpkg.com/@tauri-apps/cli/-/cli-1.0.0-beta.10.tgz#753a011d6fbbf1a903e18593b5b99d7dee8ccc5b"
-  integrity sha512-T0cvV5Y5vCeEw6tQ7DfuGhXxxe26AwW9i3oYT/AQZlwrLG9Xk02Pp0/lKqd/WeddE3X/IFfSm8YMRCz3VElIWQ==
+  resolved "https://registry.nlark.com/@tauri-apps/cli/download/@tauri-apps/cli-1.0.0-beta.10.tgz#753a011d6fbbf1a903e18593b5b99d7dee8ccc5b"
+  integrity sha1-dToBHW+78akD4YWTtbmdfe6MzFs=
   dependencies:
     "@tauri-apps/toml" "2.2.4"
     chalk "4.1.2"
